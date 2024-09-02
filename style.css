@@ -1,0 +1,169 @@
+body {
+  background-image: url(images/alesia-kazantceva-0B7ijYKaKcE-unsplash.jpg); 
+  background-size: cover;
+  background-repeat:no-repeat ;
+}
+
+img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: top;
+  position: relative;
+}
+
+h1, h2{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  color: rgb(81, 49, 18);
+  
+}
+ul{
+
+  list-style: none;
+  padding: 0px;
+}
+
+.socials-container{
+  box-shadow: 2px 2px 3px rgba(245, 245, 245, 0.908);
+  border: 1px solid;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.173);
+  margin-top: 4%;
+  padding: 2px;
+
+
+}
+
+.intro-container{
+  box-shadow: 2px 2px 3px rgb(99, 96, 96);
+  border: 1px solid;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.179);
+  margin-bottom: 2%;
+}
+
+.pic-container:hover .overlay{
+  transform: scale(1);
+  box-shadow: 2px whitesmoke;
+  
+
+}
+
+.overlay{ 
+  position:absolute;
+  
+  
+  background-color: #33312f64;
+  overflow:visible;
+  width: 200px;
+  height: 200px;
+  left:658px;
+  top: 110px;
+  transform: scale(0);
+
+  transition: .3s ease;
+  border-radius: 50%;
+
+}
+
+.text{
+  text-align: center;
+  /* transform: translate(-50%, -50%); */
+  /* position:absolute; */
+  color: rgb(255, 255, 255);
+  padding: 100px;
+
+}
+
+h3{
+  color:beige
+}
+
+.p-container{
+  font-family: "Cinzel", serif;
+  box-shadow: 2px 2px 3px rgb(99, 96, 96);
+  border: 1px solid rgb(248, 229, 229);
+  border-radius: 6px;
+  background-color: rgba(168, 162, 162, 0.458);
+  margin-bottom: 2%;
+  color:rgb(50, 3, 3);
+  padding: 2px;
+  
+}
+
+a:hover{
+  font-family: "Cinzel", serif;
+  font-optical-sizing:auto;
+  text-decoration:solid;
+  color:rgb(255, 0, 0)
+}
+
+.hobbie-container{
+  font-family: "Cinzel", serif;
+  box-shadow: 2px 2px 3px rgb(99, 96, 96);
+  border: 1px solid rgb(248, 229, 229);
+  border-radius: 6px;
+  background-color: rgba(198, 194, 194, 0.458);
+  margin-top: 2px;
+  margin-bottom: 4px;
+  color:rgb(50, 3, 3);
+  padding: 2px;
+}
+
+.button-container{
+  background-color: rgba(250, 235, 215, 0.301);
+  border: none;
+  padding: 2px 2px;
+  text-align: center;
+  font-size: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.scroll-container{
+  padding: 2px;
+  background-color: #33312f64;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  box-shadow: 2px 2px 3px rgb(99, 96, 96);
+  border: 1px solid rgb(248, 229, 229);
+  border-radius: 6px;
+  background-color: rgba(198, 194, 194, 0.458);
+  margin-top: 6px;
+  scrollbar-width: none;
+}
+
+h4{
+color:rgb(47, 0, 0)
+
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
